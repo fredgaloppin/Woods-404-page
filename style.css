@@ -1,0 +1,63 @@
+
+body{
+	padding: 10px;
+	width: auto;
+	height: auto;
+	background-color: rgb(141,155,181, 0.8);
+	text-align: center;
+	background: url(Assets/tree.png) no-repeat;
+	background-size: cover;
+}
+main{
+	display:inline-flex;
+	justify-content: flex-end;
+	width: 960px;
+	height: 353px;
+	border-radius: 10px;
+}
+blockquote{
+	display:inline-flex;
+ 	margin: 0px;
+ 	border-radius: 20%;
+	 text-align: right;
+}
+a img{
+	border-radius: 20%;
+	margin: -50px 0px 0px 50px;
+}
+h1{
+	background:url(Assets/fantasy.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 10px;
+	height: 120px;
+	opacity: 1;
+}
+h2{
+	display:inline-flex;
+	background-color: rgb(240,240,240,0.8);
+	padding: 10px 10px 0px 0px;
+	border-radius:  20px;
+	height: 100px;
+}
+h2 img{
+	margin: 20px -62px 0px 5px;
+}
+a{
+	cursor: pointer;
+}
+a:hover ~#dis {
+		animation-duration: 5s;
+		animation-name: disappear;
+}
+  @keyframes disappear {
+	0%   {opacity: 0.5;}
+	10%  {opacity: 0.25;}
+	20%  {opacity: 0;}
+	100% {opacity: 0;}
+  }
+.logo{
+	padding: 10px;
+}
