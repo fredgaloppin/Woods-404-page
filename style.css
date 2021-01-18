@@ -10,7 +10,7 @@ body{
 }
 main{
 	display:inline-flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	width: 960px;
 	height: 353px;
 	border-radius: 10px;
@@ -33,6 +33,8 @@ h1{
 	padding: 10px;
 	margin: 10px;
 	height: 120px;
+}
+.dis{
 	opacity: 1;
 }
 h2{
